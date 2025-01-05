@@ -1,0 +1,37 @@
+# Virtual environments
+venv/
+.venv/
+
+# Byte-compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Logs and runtime
+*.log
+*.out
+*.err
+
+.DS_Store
+.vscode/
+
+
+# Dependency management
+*.egg-info/
+dist/
+build/
+
+# Environment and secrets
+.env
+.env.local
+
+# Testing artifacts
+.cache/
+*.coverage
+coverage.xml
+
+# Distribution
+wheels/
+
+# Ignore earthquake data
+data/posted_earthquakes.json
